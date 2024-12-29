@@ -1,0 +1,1 @@
+This example demonstrates a common issue when using `Enum.each` with `throw` in Elixir. The `throw` statement immediately exits the `Enum.each` function, preventing subsequent iterations and any code after the `throw` within the loop. This might lead to unexpected behavior if you expect further processing.
